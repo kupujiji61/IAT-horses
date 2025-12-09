@@ -4,81 +4,87 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 
     return iatExtension({
         category1 : {
-            name : global.blackLabels, //Will appear in the data.
-            title : {
-                media : {word : global.blackLabels}, //Name of the category presented in the task.
-                css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
-                height : 4 //Used to position the "Or" in the combined block.
-            }, 
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {image: 'bm1_nc.jpg'},
-                {image: 'bm2_nc.jpg'},
-                {image: 'bm3_nc.jpg'},
-                {image: 'bf1_nc.jpg'},
-                {image: 'bf2_nc.jpg'},                 
-                {image: 'bf3_nc.jpg'}     
-            ],
-            //Stimulus css (style)
-            stimulusCss : {color:'#31940F','font-size':'2.3em'}
-        },    
-        category2 : {
-            name : global.whiteLabels, //Will appear in the data.
-            title : {
-                media : {word : global.whiteLabels}, //Name of the category presented in the task.
-                css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
-                height : 4 //Used to position the "Or" in the combined block.
-            }, 
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {image: 'wm1_nc.jpg'},
-                {image: 'wm2_nc.jpg'},
-                {image: 'wm3_nc.jpg'},
-                {image: 'wf1_nc.jpg'},
-                {image: 'wf2_nc.jpg'},
-                {image: 'wf3_nc.jpg'}
-            ],
-            //Stimulus css (style)
-            stimulusCss : {color:'#31940F','font-size':'2.3em'}
-        },
-        attribute1 : {
-            name : 'Bad words',
-            title : {
-                media : {word : 'Bad words'},
-                css : {color:'#0000FF','font-size':'1.8em'},
-                height : 4 //Used to position the "Or" in the combined block.
+                name : 'Башкирский',
+                title : {
+                    media : { word : 'Башкирский' },
+                    css   : { color:'#31940F','font-size':'1.8em' },
+                    height: 4
+                },
+                stimulusMedia : [
+                    { word: 'Башкортостан' },
+                    { word: 'Сабантуй' },
+                    { word: 'Бешбармак' },
+                    { word: 'Урал-Батыр' },
+                    { word: 'Уфа' },
+                    { word: 'Агидель' },
+                    { word: 'Бешмет' },
+                    { word: 'Курай' }
+                ],
+                stimulusCss : { color:'#31940F','font-size':'2.3em' }
             },
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: global.negWords[0]},
-                {word: global.negWords[1]},
-                {word: global.negWords[2]},
-                {word: global.negWords[3]},
-                {word: global.negWords[4]},
-                {word: global.negWords[5]},
-                {word: global.negWords[6]},
-                {word: global.negWords[7]}
-            ],
-            //Stimulus css
-            stimulusCss : {color:'#0000FF','font-size':'2.3em'}
-        },
-        attribute2 : {
-            name : 'Good words',
-            title : {
-                media : {word : 'Good words'},
-                css : {color:'#0000FF','font-size':'1.8em'},
-                height : 4 //Used to position the "Or" in the combined block.
+
+            // Таргет 2: Русский
+            category2 : {
+                name : 'Русский',
+                title : {
+                    media : { word : 'Русский' },
+                    css   : { color:'#31940F','font-size':'1.8em' },
+                    height: 4
+                },
+                stimulusMedia : [
+                    { word: 'Россия' },
+                    { word: 'Масленица' },
+                    { word: 'Пельмени' },
+                    { word: 'Илья Муромец' },
+                    { word: 'Москва' },
+                    { word: 'Енисей' },
+                    { word: 'Кокошник' },
+                    { word: 'Балалайка' }
+                ],
+                stimulusCss : { color:'#31940F','font-size':'2.3em' }
             },
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: global.posWords[0]},
-                {word: global.posWords[1]},
-                {word: global.posWords[2]},
-                {word: global.posWords[3]},
-                {word: global.posWords[4]},
-                {word: global.posWords[5]},
-                {word: global.posWords[6]},
-                {word: global.posWords[7]}
-            ],
-            //Stimulus css
-            stimulusCss : {color:'#0000FF','font-size':'2.3em'}
-        },
+
+            // Атрибут 1: Горы (пока как слова)
+            attribute1 : {
+                name : 'Горы',
+                title : {
+                    media : { word : 'Горы' },
+                    css   : { color:'#0000FF','font-size':'1.8em' },
+                    height: 4
+                },
+                stimulusMedia : [
+                    { word: 'гора 1' },
+                    { word: 'гора 2' },
+                    { word: 'гора 3' },
+                    { word: 'гора 4' },
+                    { word: 'гора 5' },
+                    { word: 'гора 6' },
+                    { word: 'гора 7' },
+                    { word: 'гора 8' }
+                ],
+                stimulusCss : { color:'#0000FF','font-size':'2.3em' }
+            },
+
+            // Атрибут 2: Болота (пока как слова)
+            attribute2 : {
+                name : 'Болота',
+                title : {
+                    media : { word : 'Болота' },
+                    css   : { color:'#0000FF','font-size':'1.8em' },
+                    height: 4
+                },
+                stimulusMedia : [
+                    { word: 'болото 1' },
+                    { word: 'болото 2' },
+                    { word: 'болото 3' },
+                    { word: 'болото 4' },
+                    { word: 'болото 5' },
+                    { word: 'болото 6' },
+                    { word: 'болото 7' },
+                    { word: 'болото 8' }
+                ],
+                stimulusCss : { color:'#0000FF','font-size':'2.3em' }
+            },
         base_url : {//Where are your images at?
             image : global.baseURL
         },
