@@ -287,7 +287,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Поставьте левый палец на клавишу <b>E</b> для <font color="#336600">leftCategory</font>.<br/>' +
 				'Поставьте правый палец на клавишу <b>I</b> для <font color="#336600">rightCategory</font>.<br/><br/>' +
 				'<u>Отвечайте как можно быстрее</u>, соблюдая правильность ответов.<br/><br/></p>' +
-				'<p align="center">Нажмите на <b>пробел bar</b>, как будете готовы начать.</font></p></div>',
+				'<p align="center">Нажмите на <b>пробел</b>, как будете готовы начать.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
