@@ -78,13 +78,13 @@ define(['questAPI'], function(Quest){
         ]
     });
 	
-    API.addQuestionsSet('thermBlack',{
+    API.addQuestionsSet('thermBash',{
         inherit : 'therm',
         name: 'Tblack_0to10',
         stem: 'How warm or cold do you feel towards <b><%= global.blackLabels %></b>?'
     });
 
-    API.addQuestionsSet('thermWhite',{
+    API.addQuestionsSet('thermRuss',{
         inherit : 'therm',
         name: 'Twhite_0to10',
         stem: 'How warm or cold do you feel towards <b><%= global.whiteLabels %></b>?'
@@ -100,11 +100,11 @@ define(['questAPI'], function(Quest){
                     data : [
                         {
                             inherit:'basicPage', 
-                            questions: {inherit:'thermBlack'}
+                            questions: {inherit:'thermBash'}
                         },
                         {
                             inherit:'basicPage', 
-                            questions: {inherit:'thermWhite'}							
+                            questions: {inherit:'thermRuss'}							
                         }
                     ]
                 },
