@@ -18,7 +18,9 @@ define(['pipAPI','./iat10_ru.js'], function(APIConstructor, iatExtension){
                     { word: 'Уфа' },
                     { word: 'Агидель' },
                     { word: 'Бешмет' },
-                    { word: 'Курай' }
+                    { word: 'Курай' },
+                    { word: 'Юрта' },
+                    { word: 'Шихан' }
                 ],
                 stimulusCss : { color:'#31940F','font-size':'2.3em' }
             },
@@ -39,7 +41,9 @@ define(['pipAPI','./iat10_ru.js'], function(APIConstructor, iatExtension){
                     { word: 'Москва' },
                     { word: 'Енисей' },
                     { word: 'Кокошник' },
-                    { word: 'Балалайка' }
+                    { word: 'Балалайка' },
+                    { word: 'Изба' },
+                    { word: 'Сибирь' }
                 ],
                 stimulusCss : { color:'#31940F','font-size':'2.3em' }
             },
