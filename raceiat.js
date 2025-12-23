@@ -44,46 +44,46 @@ define(['pipAPI','./iat10_ru.js'], function(APIConstructor, iatExtension){
                 stimulusCss : { color:'#31940F','font-size':'2.3em' }
             },
 
-            // ───────── АТРИБУТЫ: ГОРЫ / БОЛОТА (КАРТИНКИ) ─────────
+            // ───────── АТРИБУТЫ: ЛОШАДИ / КОРОВЫ (КАРТИНКИ) ─────────
 
-            attribute1 : { // ГОРЫ
-                name : 'Горы',
+            attribute1 : { // Лошади
+                name : 'Лошади',
                 title : {
-                    media : { word : 'Горы' },
+                    media : { word : 'Лошади' },
                     css   : { color:'#0000FF','font-size':'1.8em' },
                     height: 4
                 },
                 stimulusMedia : [
-                    { image: 'mount_1.jpg' },
-                    { image: 'mount_2.jpg' },
-                    { image: 'mount_3.jpg' },
-                    { image: 'mount_4.jpg' },
-                    { image: 'mount_5.jpg' },
-                    { image: 'mount_6.jpg' },
-                    { image: 'mount_7.jpg' },
-                    { image: 'mount_8.jpg' }
+                    { image: 'horse_1.jpg' },
+                    { image: 'horse_2.jpg' },
+                    { image: 'horse_3.jpg' },
+                    { image: 'horse_4.jpg' },
+                    { image: 'horse_5.jpg' },
+                    { image: 'horse_6.jpg' },
+                    { image: 'horse_7.jpg' },
+                    { image: 'horse_8.jpg' }
                 ],
                 // CSS тут влияет в основном на размер рамки / подписи,
                 // сами картинки по размеру задаются их файлами.
                 stimulusCss : { color:'#0000FF','font-size':'2.3em' }
             },
 
-            attribute2 : { // БОЛОТА
-                name : 'Болота',
+            attribute2 : { // Коровы
+                name : 'Коровы',
                 title : {
-                    media : { word : 'Болота' },
+                    media : { word : 'Коровы' },
                     css   : { color:'#0000FF','font-size':'1.8em' },
                     height: 4
                 },
                 stimulusMedia : [
-                    { image: 'swamp_1.jpg' },
-                    { image: 'swamp_2.jpg' },
-                    { image: 'swamp_3.jpg' },
-                    { image: 'swamp_4.jpg' },
-                    { image: 'swamp_5.jpg' },
-                    { image: 'swamp_6.jpg' },
-                    { image: 'swamp_7.jpg' },
-                    { image: 'swamp_8.jpg' }
+                    { image: 'cow_1.jpg' },
+                    { image: 'cow_2.jpg' },
+                    { image: 'cow_3.jpg' },
+                    { image: 'cow_4.jpg' },
+                    { image: 'cow_5.jpg' },
+                    { image: 'cow_6.jpg' },
+                    { image: 'cow_7.jpg' },
+                    { image: 'cow_8.jpg' }
                 ],
                 stimulusCss : { color:'#0000FF','font-size':'2.3em' }
             },
